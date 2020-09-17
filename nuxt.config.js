@@ -58,6 +58,8 @@ export default {
   */
   build: {
   },
+  // 実はなくても動的ルーティングの書き出しをしてくれる
+  // チューニングできるようになるので書いておくと吉とのこと
   generate: {
     async routes() {
       const pages = await axios
